@@ -6,9 +6,9 @@ function Navbar ()
     return (
       <div>
          <header >
-        <nav className=' font-sans flex items-center justify-between h-14 pl-20 '>
+        <nav className=' font-sans flex items-center justify-between h-16 pl-20 pr-20 '>
             <div className='flex items-center'>
-                <Image className='  h-5 w-16' src={Logo} />
+                <Image className='  h-6 w-20' src={Logo} />
             </div>
             <ul className='flex items-center justify-center gap-6'>
                 <li className='font-semibold grid items-center'>
