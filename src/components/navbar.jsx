@@ -1,6 +1,8 @@
 import Image from 'next/image'
 import Logo from '../assets/logo.png';
-
+import Link from 'next/link';
+import Bag from "../assets/bag.png"
+import Heart from "../assets/heart.png"
 function Navbar ()
 {
     return (
@@ -35,10 +37,10 @@ function Navbar ()
                     <input className=' bg-[#f5f5f5] border-none rounded-2xl h-8' />
                 </li>
                 <li className='grid items-center'>
-               
+                    <Link href={"./"} ><Image src={Heart} /></Link>
                 </li>
                 <li className='grid items-center'>
-                   
+                    <Link href={"./"} ><Image src={Bag} /></Link>
                 </li>
             </ul>
             
