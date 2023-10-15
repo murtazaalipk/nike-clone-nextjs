@@ -3,6 +3,7 @@ import Logo from '../assets/logo.png';
 import Link from 'next/link';
 import Bag from "../assets/bag.png"
 import Heart from "../assets/heart.png"
+import Search from "../assets/search.png"
 function Navbar ()
 {
     return (
@@ -34,7 +35,7 @@ function Navbar ()
             </ul>
             <ul className='flex items-center justify-center gap-6'>
                 <li className='grid items-center'>
-                    <input className=' bg-[#f5f5f5] border-none rounded-2xl h-8' />
+                    <i className='absolute pl-2' ><Image className=' h-5 w-5' src={Search}></Image></i><input className=' bg-[#f5f5f5] border-none rounded-2xl h-8' />
                 </li>
                 <li className='grid items-center'>
                     <Link href={"./"} ><Image src={Heart} /></Link>
