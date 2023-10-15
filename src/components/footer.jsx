@@ -47,11 +47,11 @@ export default function Footer() {
             <Link href={"./"}>
               <Image className=" h-8 w-8" src={Facebook} />
             </Link>
-            <Link href={"./"}>
-              <Image className=" h-8 w-8" src={Youtube} />
+            <Link  href={"./"}>
+              <Image className=" h-8 w-8  hover:bg-white hover:rounded-2xl" src={Youtube} />
             </Link>
             <Link href={"./"}>
-              <Image className=" h-8 w-8" src={Instagram} />
+              <Image className=" h-8 w-8 hover:bg-white hover:rounded-2xl" src={Instagram} />
             </Link>
           </div>
         </div>
