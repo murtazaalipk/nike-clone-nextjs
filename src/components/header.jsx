@@ -7,7 +7,7 @@ import Image from 'next/image'
 export default function Header() {
   return (
     <main>
-        <div className=" bg-[#f5f5f5] h-9 flex justify-between pl-20 pr-20">
+        <div className=" bg-[#f5f5f5] h-9 flex justify-between pl-16 pr-16">
         <ul className='flex items-center justify-center gap-6'>
                 <li className='grid items-center'>
                 <Image className="h-8 w-8" src={Head1} />
