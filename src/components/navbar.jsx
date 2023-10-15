@@ -6,7 +6,7 @@ function Navbar ()
     return (
       <div>
          <header >
-        <nav className=' font-sans flex items-center justify-between h-16 pl-20 pr-20 '>
+        <nav className=' font-sans flex items-center justify-between h-16 pl-16 pr-16 '>
             <div className='flex items-center'>
                 <Image className='  h-6 w-20' src={Logo} />
             </div>
