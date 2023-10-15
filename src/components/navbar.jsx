@@ -10,26 +10,26 @@ function Navbar ()
          <header >
         <nav className=' font-sans flex items-center justify-between h-16 pl-16 pr-16 '>
             <div className='flex items-center'>
-                <Image className='  h-6 w-20' src={Logo} />
+            <Link href={"./"} > <Image className='  h-6 w-20' src={Logo} /> </Link>
             </div>
             <ul className='flex items-center justify-center gap-6'>
                 <li className='font-semibold grid items-center'>
-                    New & Feature
+                   <Link href={"./"} > New & Feature </Link>
                 </li>
                 <li className=' font-semibold grid items-center'>
-                    Man
+                   <Link href={"./"} > Man </Link>
                 </li>
                 <li className='grid items-center font-semibold'>
-                    Women
+                  <Link href={"./"} > Women </Link>
                 </li>
                 <li className='grid items-center font-semibold'>
-                    Kids
+                 <Link href={"./"} > Kids </Link>
                 </li>
                 <li className='grid items-center font-semibold'>
-                    Accessories
+                <Link href={"./"} >  Accessories </Link>
                 </li>
                 <li className='grid items-center font-semibold'>
-                    Sales
+                <Link href={"./"} > Sales </Link>
                 </li>
             </ul>
             <ul className='flex items-center justify-center gap-6'>
