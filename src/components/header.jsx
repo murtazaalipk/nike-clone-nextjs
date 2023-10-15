@@ -2,7 +2,8 @@ import Navbar from "./navbar"
 import Head1 from "../assets/head1.png"
 import Head2 from "../assets/head2.png"
 import Image from 'next/image'
-
+import Bag from "../assets/bag.png"
+import Heart from "../assets/heart.png"
 
 export default function Header() {
   return (
