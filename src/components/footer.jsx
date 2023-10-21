@@ -7,9 +7,10 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    <main>
+    <main >
       <footer className="bg-[#111111] pt-20 pb-6 font-semibold text-white">
-        <div className="flex justify-between pl-16 pr-16">
+       <div className="flex justify-between sm:flex-col pl-16 pr-16">
+        <div className="flex justify-between sm:flex-col gap-8 ">
           <div className="flex flex-col gap-4">
             <Link href={"./"}>GIFT CARDS</Link>
             <Link href={"./"}>PROMOTIONS</Link>
@@ -40,12 +41,13 @@ export default function Footer() {
             <Link href={"./"}>Purpose</Link>
             <Link href={"./"}>Sustainability</Link>
           </div>
-          <div className="flex gap-5 ml-80">
+          </div>
+          <div className="flex flex-wrap smr:ml-8 gap-5 max-h-24 sm:pt-10">
             <Link href={"./"}>
-              <Image className=" h-8 w-8" src={Twitter} />
+              <Image className=" h-8 w-8 hover:bg-white hover:rounded-2xl" src={Twitter} />
             </Link>
             <Link href={"./"}>
-              <Image className=" h-8 w-8" src={Facebook} />
+              <Image className=" h-8 w-8 hover:bg-white hover:rounded-2xl" src={Facebook} />
             </Link>
             <Link  href={"./"}>
               <Image className=" h-8 w-8  hover:bg-white hover:rounded-2xl" src={Youtube} />
