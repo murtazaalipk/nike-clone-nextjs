@@ -7,11 +7,16 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-      },
+      
+      screens: {
+        'sm': { 'max': "600px" },
+        'md': { 'max': "966px" },
+        'lg': { 'max': "991px" },
+        'xl': { 'max': "1200px" },
+        // reverse
+        'mdr': { 'min': "966px" },
+        'smr': { 'min': "600px" },
+      }
     },
   },
   plugins: [],
