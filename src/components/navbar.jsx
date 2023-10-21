@@ -5,6 +5,7 @@ import Bag from "../assets/bag.png"
 import Heart from "../assets/heart.png"
 import Search from "../assets/search.png"
 import Menu from "../assets/menu.png"
+
 function Navbar ()
 {
     return (
@@ -45,7 +46,7 @@ function Navbar ()
                     <Link href={"./"} ><Image src={Bag} /></Link>
                 </li>
                 <li className=' mdr:hidden '>
-                    <Link href={"./"} ><Image src={Menu} /></Link>
+                    <div href={"./"}   ><Image src={Menu} /></div>
                 </li>
             </ul>
             
