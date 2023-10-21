@@ -4,11 +4,11 @@ import '@/styles/globals.css'
 
 export default function App({ Component, pageProps }) {
   return (
-  <body className=' w-full'>
+  <div>
   <Header/>
   <Component {...pageProps} />
   <Footer/>
-  </body>
+  </div>
 
   )
 }
