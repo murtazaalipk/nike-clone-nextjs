@@ -4,6 +4,7 @@ import Facebook from "../assets/facebook.png";
 import Instagram from "../assets/instagram.png";
 import Youtube from "../assets/youtube.png";
 import Image from "next/image";
+import Footdrop from "../assets/footdrop.png";
 
 export default function Footer() {
   return (
@@ -19,7 +20,7 @@ export default function Footer() {
             <Link href={"./"}>NIKE JOURNAL</Link>
             <Link href={"./"}>SEND US FEEDBACK</Link>
           </div>
-          <div className="flex flex-col gap-4 text-[#383838]">
+          <div className="flex flex-col gap-4 text-[#383838] sm:hidden">
             <Link className=" text-slate-50" href={"./"}>
               GET HELP
             </Link>
@@ -31,7 +32,14 @@ export default function Footer() {
             <Link href={"./"}>Gift Card Balance</Link>
             <Link href={"./"}>Contact Us</Link>
           </div>
-          <div className="flex flex-col gap-4 text-[#383838]">
+          <div className="flex justify-between text-[#383838] smr:hidden ">
+            <div className=" text-slate-50" >
+              GET HELP
+            </div>
+            <Image  className="h-5 w-5" src={Footdrop} />
+           
+          </div>
+          <div className="flex flex-col gap-4 text-[#383838] sm:hidden ">
             <Link className=" text-slate-50" href={"./"}>
               ABOUT NIKE
             </Link>
@@ -41,6 +49,13 @@ export default function Footer() {
             <Link href={"./"}>Purpose</Link>
             <Link href={"./"}>Sustainability</Link>
           </div>
+          <div className="flex justify-between  text-[#383838] smr:hidden ">
+            <div className=" text-slate-50" href={"./"}>
+              ABOUT NIKE
+            </div>
+            <Image   className="h-5 w-5" src={Footdrop} />
+          </div>
+         
           </div>
           <div className="flex flex-wrap smr:ml-8 gap-5 max-h-24 sm:pt-10">
             <Link href={"./"}>
